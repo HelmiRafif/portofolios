@@ -1,0 +1,61 @@
+{
+  "projects": [
+    {
+      "id": "b2b-checkout-rewrite",
+      "title": {
+        "en": "B2B Checkout Rewrite",
+        "id": "Rewrite Checkout B2B"
+      },
+      "description": {
+        "en": "Re-architected checkout to improve reliability and iteration speed.",
+        "id": "Re-arsitektur checkout untuk meningkatkan reliabilitas dan kecepatan iterasi."
+      },
+      "role": "Frontend Developer Lead",
+      "techStack": ["Next.js", "TypeScript", "React", "Tailwind", "Playwright"],
+      "highlights": {
+        "en": [
+          "Migrated from fragile client state to explicit domain flows",
+          "Introduced contract-first API integration + resilient error handling"
+        ],
+        "id": [
+          "Migrasi dari state client yang rapuh ke flow domain yang eksplisit",
+          "Menerapkan integrasi API contract-first + penanganan error yang lebih tahan banting"
+        ]
+      },
+      "impact": "Reduced checkout incidents and improved conversion funnel stability.",
+      "links": {
+        "website": "https://example.com"
+      },
+      "featured": true,
+      "updatedAt": "2026-01-05T10:00:00.000Z"
+    },
+    {
+      "id": "design-system",
+      "title": {
+        "en": "Internal Design System",
+        "id": "Design System Internal"
+      },
+      "description": {
+        "en": "Built a composable UI system to standardize patterns and reduce UI drift.",
+        "id": "Membangun sistem UI komposabel untuk standarisasi dan mengurangi UI drift."
+      },
+      "role": "Frontend Engineer",
+      "techStack": ["TypeScript", "React", "Storybook"],
+      "highlights": {
+        "en": [
+          "Tokenized colors/typography and documented usage",
+          "Shipped accessibility patterns and review checklist"
+        ],
+        "id": [
+          "Tokenisasi warna/tipografi dan dokumentasi penggunaannya",
+          "Merilis pola aksesibilitas dan checklist review"
+        ]
+      },
+      "links": {
+        "repo": "https://github.com/example/repo"
+      },
+      "featured": false,
+      "updatedAt": "2025-11-20T08:30:00.000Z"
+    }
+  ]
+}
