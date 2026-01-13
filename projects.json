@@ -1,61 +1,75 @@
 {
   "projects": [
     {
-      "id": "b2b-checkout-rewrite",
+      "id": "mosq",
       "title": {
-        "en": "B2B Checkout Rewrite",
-        "id": "Rewrite Checkout B2B"
+        "en": "MosQ — Mosque Management App",
+        "id": "MosQ — Aplikasi Manajemen Masjid"
       },
       "description": {
-        "en": "Re-architected checkout to improve reliability and iteration speed.",
-        "id": "Re-arsitektur checkout untuk meningkatkan reliabilitas dan kecepatan iterasi."
+        "en": "MosQ is a mosque management mobile application that helps mosque administrators manage operational and financial data digitally and transparently. I contributed to building the Flutter + Firebase app with a focus on scalable architecture, reliable data synchronization, and user-friendly UX for non-technical users.",
+        "id": "MosQ adalah aplikasi mobile manajemen masjid yang memudahkan pengurus masjid mengelola data operasional dan keuangan secara digital dan transparan. Saya berkontribusi mengembangkan aplikasi dengan Flutter dan Firebase, dengan fokus arsitektur yang skalabel, sinkronisasi data yang andal, dan UX yang mudah digunakan oleh pengguna non-teknis."
       },
-      "role": "Frontend Developer Lead",
-      "techStack": ["Next.js", "TypeScript", "React", "Tailwind", "Playwright"],
+      "role": "Mobile Frontend Developer",
+      "techStack": [
+        "Flutter",
+        "Firebase",
+        "REST API",
+        "State Management",
+        "Authentication",
+        "Cloud Functions"
+      ],
       "highlights": {
         "en": [
-          "Migrated from fragile client state to explicit domain flows",
-          "Introduced contract-first API integration + resilient error handling"
+          "Period: Sep 2021 – Jun 2023 · Company: PT Imperindo",
+          "Built cash/financial management, inventory tracking, and zakat/donation recording",
+          "Implemented attendance monitoring and a community-facing transparency dashboard",
+          "Collaborated with product and backend teams to translate requirements into reliable features"
         ],
         "id": [
-          "Migrasi dari state client yang rapuh ke flow domain yang eksplisit",
-          "Menerapkan integrasi API contract-first + penanganan error yang lebih tahan banting"
+          "Periode: Sep 2021 – Jun 2023 · Perusahaan: PT Imperindo",
+          "Mengembangkan fitur pengelolaan kas/keuangan, pelacakan inventaris, dan pencatatan zakat/donasi",
+          "Menerapkan monitoring kehadiran imam/petugas serta dashboard transparansi untuk komunitas",
+          "Kolaborasi dengan tim produk dan backend untuk menerjemahkan kebutuhan menjadi fitur yang andal"
         ]
-      },
-      "impact": "Reduced checkout incidents and improved conversion funnel stability.",
-      "links": {
-        "website": "https://example.com"
       },
       "featured": true,
-      "updatedAt": "2026-01-05T10:00:00.000Z"
+      "updatedAt": "2023-06-30T00:00:00.000Z"
     },
     {
-      "id": "design-system",
+      "id": "sayurdaily",
       "title": {
-        "en": "Internal Design System",
-        "id": "Design System Internal"
+        "en": "Sayurdaily — Grocery E-commerce App",
+        "id": "Sayurdaily — Aplikasi E-commerce Sembako"
       },
       "description": {
-        "en": "Built a composable UI system to standardize patterns and reduce UI drift.",
-        "id": "Membangun sistem UI komposabel untuk standarisasi dan mengurangi UI drift."
+        "en": "Sayurdaily is a mobile e-commerce application for users in Malang City and surrounding areas to shop for daily groceries (vegetables, fruits, meat, fish). I worked on the Flutter app focusing on performance optimization, WooCommerce API integration, and a smooth checkout/order tracking experience aligned with real-world operations.",
+        "id": "Sayurdaily adalah aplikasi e-commerce mobile untuk pengguna di Kota Malang dan sekitarnya membeli kebutuhan harian (sayur, buah, daging, ikan). Saya mengembangkan aplikasi Flutter dengan fokus optimisasi performa, integrasi WooCommerce API, serta pengalaman checkout dan tracking pesanan yang selaras dengan proses operasional."
       },
-      "role": "Frontend Engineer",
-      "techStack": ["TypeScript", "React", "Storybook"],
+      "role": "Mobile Frontend Developer",
+      "techStack": [
+        "Flutter",
+        "WooCommerce API",
+        "REST API",
+        "Payment Integration",
+        "Performance Tuning"
+      ],
       "highlights": {
         "en": [
-          "Tokenized colors/typography and documented usage",
-          "Shipped accessibility patterns and review checklist"
+          "Period: Nov 2022 – Jun 2023 · Company: PT Imperindo",
+          "Integrated WooCommerce backend for product browsing, cart, checkout, and order tracking",
+          "Optimized mobile performance to support quick local shopping flows",
+          "Coordinated with backend and operations teams to match real-world order processing"
         ],
         "id": [
-          "Tokenisasi warna/tipografi dan dokumentasi penggunaannya",
-          "Merilis pola aksesibilitas dan checklist review"
+          "Periode: Nov 2022 – Jun 2023 · Perusahaan: PT Imperindo",
+          "Integrasi backend WooCommerce untuk browse produk, keranjang, checkout, dan tracking pesanan",
+          "Optimisasi performa untuk mendukung alur belanja lokal yang cepat",
+          "Koordinasi dengan tim backend dan operasional agar aplikasi sesuai proses pemesanan di lapangan"
         ]
       },
-      "links": {
-        "repo": "https://github.com/example/repo"
-      },
       "featured": false,
-      "updatedAt": "2025-11-20T08:30:00.000Z"
+      "updatedAt": "2023-06-30T00:00:00.000Z"
     }
   ]
 }
