@@ -70,6 +70,75 @@
       },
       "featured": false,
       "updatedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "id": "kasirmudah",
+      "title": {
+        "en": "Kasirmudah — POS / Cashier App",
+        "id": "Kasirmudah — Aplikasi POS / Kasir"
+      },
+      "description": {
+        "en": "Kasirmudah is a cashier (POS) application used by businesses across Indonesia. I lead the Android team to deliver features that support day-to-day operations, with a focus on reliability, maintainable architecture, and a smooth end-user experience.",
+        "id": "Kasirmudah adalah aplikasi kasir (POS) yang digunakan oleh bisnis di Indonesia. Saya memimpin tim Android untuk mengembangkan fitur operasional harian dengan fokus pada reliabilitas, arsitektur yang mudah dirawat, dan pengalaman pengguna yang mulus."
+      },
+      "role": "Android Team Lead",
+      "techStack": [
+        "Android",
+        "POS Systems",
+        "Team Leadership",
+        "Play Store",
+        "App Store"
+      ],
+      "highlights": {
+        "en": [
+          "Period: Jun 2023 – Present · Company: PT Ada Ide Langsung Jalan",
+          "Led Android delivery across multiple feature areas and releases",
+          "Shipped features supporting laundry/business workflows in the POS ecosystem",
+          "Focused on quality, operational readiness, and scalable implementation"
+        ],
+        "id": [
+          "Periode: Jun 2023 – Sekarang · Perusahaan: PT Ada Ide Langsung Jalan",
+          "Memimpin delivery Android untuk berbagai area fitur dan rilis",
+          "Mengembangkan fitur yang mendukung alur kerja bisnis (termasuk laundry) dalam ekosistem POS",
+          "Fokus pada kualitas, kesiapan operasional, dan implementasi yang skalabel"
+        ]
+      },
+      "featured": true,
+      "updatedAt": "2026-01-13T00:00:00.000Z"
+    },
+    {
+      "id": "smartlink",
+      "title": {
+        "en": "Smartlink — Laundry Cashier / POS App",
+        "id": "Smartlink — Aplikasi Kasir / POS Laundry"
+      },
+      "description": {
+        "en": "Smartlink is a laundry cashier (POS) application. I lead the Android team to build and maintain core POS capabilities, ensuring performance, stability, and predictable behavior in real-world store operations.",
+        "id": "Smartlink adalah aplikasi kasir (POS) untuk laundry. Saya memimpin tim Android untuk membangun dan memelihara kapabilitas inti POS, dengan fokus pada performa, stabilitas, dan perilaku aplikasi yang konsisten di operasional toko."
+      },
+      "role": "Android Team Lead",
+      "techStack": [
+        "Android",
+        "POS Systems",
+        "Team Leadership",
+        "Play Store"
+      ],
+      "highlights": {
+        "en": [
+          "Period: Jun 2021 – Present · Company: PT Ada Ide Langsung Jalan",
+          "Led Android team execution for a POS product used in laundry operations",
+          "Delivered iterative improvements across core POS workflows",
+          "Prioritized stability and maintainability across ongoing development"
+        ],
+        "id": [
+          "Periode: Jun 2021 – Sekarang · Perusahaan: PT Ada Ide Langsung Jalan",
+          "Memimpin eksekusi tim Android untuk produk POS yang digunakan di operasional laundry",
+          "Mengirimkan peningkatan iteratif pada alur kerja inti POS",
+          "Memprioritaskan stabilitas dan kemudahan maintenance dalam pengembangan berkelanjutan"
+        ]
+      },
+      "featured": false,
+      "updatedAt": "2026-01-13T00:00:00.000Z"
     }
   ]
 }
