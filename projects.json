@@ -21,13 +21,11 @@
       ],
       "highlights": {
         "en": [
-          "Period: Sep 2021 – Jun 2023 · Company: PT Imperindo",
           "Built cash/financial management, inventory tracking, and zakat/donation recording",
           "Implemented attendance monitoring and a community-facing transparency dashboard",
           "Collaborated with product and backend teams to translate requirements into reliable features"
         ],
         "id": [
-          "Periode: Sep 2021 – Jun 2023 · Perusahaan: PT Imperindo",
           "Mengembangkan fitur pengelolaan kas/keuangan, pelacakan inventaris, dan pencatatan zakat/donasi",
           "Menerapkan monitoring kehadiran imam/petugas serta dashboard transparansi untuk komunitas",
           "Kolaborasi dengan tim produk dan backend untuk menerjemahkan kebutuhan menjadi fitur yang andal"
@@ -56,13 +54,11 @@
       ],
       "highlights": {
         "en": [
-          "Period: Nov 2022 – Jun 2023 · Company: PT Imperindo",
           "Integrated WooCommerce backend for product browsing, cart, checkout, and order tracking",
           "Optimized mobile performance to support quick local shopping flows",
           "Coordinated with backend and operations teams to match real-world order processing"
         ],
         "id": [
-          "Periode: Nov 2022 – Jun 2023 · Perusahaan: PT Imperindo",
           "Integrasi backend WooCommerce untuk browse produk, keranjang, checkout, dan tracking pesanan",
           "Optimisasi performa untuk mendukung alur belanja lokal yang cepat",
           "Koordinasi dengan tim backend dan operasional agar aplikasi sesuai proses pemesanan di lapangan"
@@ -81,23 +77,21 @@
         "en": "Kasirmudah is a cashier (POS) application used by businesses across Indonesia. I lead the Android team to deliver features that support day-to-day operations, with a focus on reliability, maintainable architecture, and a smooth end-user experience.",
         "id": "Kasirmudah adalah aplikasi kasir (POS) yang digunakan oleh bisnis di Indonesia. Saya memimpin tim Android untuk mengembangkan fitur operasional harian dengan fokus pada reliabilitas, arsitektur yang mudah dirawat, dan pengalaman pengguna yang mulus."
       },
-      "role": "Android Team Lead",
+      "role": "Mobile Developer Staff",
       "techStack": [
+        "Flutter",
         "Android",
         "POS Systems",
-        "Team Leadership",
         "Play Store",
         "App Store"
       ],
       "highlights": {
         "en": [
-          "Period: Jun 2023 – Present · Company: PT Ada Ide Langsung Jalan",
           "Led Android delivery across multiple feature areas and releases",
           "Shipped features supporting laundry/business workflows in the POS ecosystem",
           "Focused on quality, operational readiness, and scalable implementation"
         ],
         "id": [
-          "Periode: Jun 2023 – Sekarang · Perusahaan: PT Ada Ide Langsung Jalan",
           "Memimpin delivery Android untuk berbagai area fitur dan rilis",
           "Mengembangkan fitur yang mendukung alur kerja bisnis (termasuk laundry) dalam ekosistem POS",
           "Fokus pada kualitas, kesiapan operasional, dan implementasi yang skalabel"
@@ -116,22 +110,20 @@
         "en": "Smartlink is a laundry cashier (POS) application. I lead the Android team to build and maintain core POS capabilities, ensuring performance, stability, and predictable behavior in real-world store operations.",
         "id": "Smartlink adalah aplikasi kasir (POS) untuk laundry. Saya memimpin tim Android untuk membangun dan memelihara kapabilitas inti POS, dengan fokus pada performa, stabilitas, dan perilaku aplikasi yang konsisten di operasional toko."
       },
-      "role": "Android Team Lead",
+      "role": "Mobile Developer Staff",
       "techStack": [
+        "Flutter",
         "Android",
         "POS Systems",
-        "Team Leadership",
         "Play Store"
       ],
       "highlights": {
         "en": [
-          "Period: Jun 2021 – Present · Company: PT Ada Ide Langsung Jalan",
           "Led Android team execution for a POS product used in laundry operations",
           "Delivered iterative improvements across core POS workflows",
           "Prioritized stability and maintainability across ongoing development"
         ],
         "id": [
-          "Periode: Jun 2021 – Sekarang · Perusahaan: PT Ada Ide Langsung Jalan",
           "Memimpin eksekusi tim Android untuk produk POS yang digunakan di operasional laundry",
           "Mengirimkan peningkatan iteratif pada alur kerja inti POS",
           "Memprioritaskan stabilitas dan kemudahan maintenance dalam pengembangan berkelanjutan"
