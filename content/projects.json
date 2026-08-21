@@ -1,0 +1,224 @@
+{
+  "projects": [
+    {
+      "id": "groapp",
+      "title": {
+        "en": "GroApp — Enterprise Accounting Web App",
+        "id": "GroApp — Aplikasi Web Akuntansi Enterprise"
+      },
+      "description": {
+        "en": "GroApp is an enterprise accounting web application built with React, TypeScript, and Vite in a monorepo architecture. I implemented Clean Architecture with strict layer separation and dependency injection, integrated Firebase backend services, and shipped 15+ feature modules across authentication, company management, banking, and contact management.",
+        "id": "GroApp adalah aplikasi web akuntansi enterprise yang dibangun dengan React, TypeScript, dan Vite dalam arsitektur monorepo. Saya menerapkan Clean Architecture dengan pemisahan layer yang ketat dan dependency injection, mengintegrasikan layanan backend Firebase, serta mengirimkan 15+ modul fitur di bidang autentikasi, manajemen perusahaan, perbankan, dan manajemen kontak."
+      },
+      "role": "Frontend Developer Staff (Mobile & Web)",
+      "techStack": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Tailwind CSS",
+        "Firebase",
+        "Zustand",
+        "RxJS",
+        "Socket.io",
+        "Monorepo"
+      ],
+      "highlights": {
+        "en": [
+          "Implemented Clean Architecture with strict layer separation and dependency injection",
+          "Managed state with Zustand and RxJS for reactive programming patterns",
+          "Built real-time notifications using Socket.io client",
+          "Translated Figma prototypes into React components with Tailwind CSS",
+          "Delivered multi-language support through a custom i18n solution"
+        ],
+        "id": [
+          "Menerapkan Clean Architecture dengan pemisahan layer yang ketat dan dependency injection",
+          "Mengelola state dengan Zustand dan RxJS untuk pola reactive programming",
+          "Membangun notifikasi real-time menggunakan Socket.io client",
+          "Menerjemahkan prototipe Figma menjadi komponen React dengan Tailwind CSS",
+          "Mendukung multi-bahasa melalui solusi i18n kustom"
+        ]
+      },
+      "featured": true,
+      "updatedAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "id": "smartlink-cashier",
+      "title": {
+        "en": "Smartlink Cashier — POS / Cashier App",
+        "id": "Smartlink Cashier — Aplikasi Kasir / POS"
+      },
+      "description": {
+        "en": "Smartlink Cashier is a Flutter-based POS application used by merchants to manage inventory, promotions, and transactions. I converted the existing Kotlin source code to Flutter, implemented Figma designs, and integrated backend APIs while following the SDLC Scrum method.",
+        "id": "Smartlink Cashier adalah aplikasi POS berbasis Flutter yang digunakan pedagang untuk mengelola inventaris, promosi, dan transaksi. Saya mengonversi source code Kotlin ke Flutter, mengimplementasikan desain Figma, dan mengintegrasikan API backend sambil mengikuti metode SDLC Scrum."
+      },
+      "role": "Frontend Developer Staff (Mobile)",
+      "techStack": [
+        "Flutter",
+        "Dart",
+        "POS Systems",
+        "QRIS",
+        "Kotlin Migration",
+        "REST API"
+      ],
+      "highlights": {
+        "en": [
+          "Converted Kotlin source code to Flutter for the cashier application",
+          "Built and enhanced Inventory Management, Promotions, and QRIS features",
+          "Translated Figma designs into production Flutter code",
+          "Followed SDLC Scrum, collaborating with UI designers and backend developers"
+        ],
+        "id": [
+          "Mengonversi source code Kotlin ke Flutter untuk aplikasi kasir",
+          "Membangun dan meningkatkan fitur Inventory Management, Promotions, dan QRIS",
+          "Menerjemahkan desain Figma menjadi kode Flutter produksi",
+          "Mengikuti SDLC Scrum, berkolaborasi dengan UI designer dan developer backend"
+        ]
+      },
+      "featured": true,
+      "updatedAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "id": "smartlink-owner",
+      "title": {
+        "en": "Smartlink Owner — Business Management App",
+        "id": "Smartlink Owner — Aplikasi Manajemen Bisnis"
+      },
+      "description": {
+        "en": "Smartlink Owner is a Flutter-based business management application for merchants with a multi-module architecture covering inventory, promotion, omnichannel, and dashboard. I built RESTful API integration with Dio and custom interceptors, real-time messaging with Socket.io, and Firebase services for cloud messaging and crash reporting.",
+        "id": "Smartlink Owner adalah aplikasi manajemen bisnis berbasis Flutter untuk pedagang dengan arsitektur multi-module yang mencakup inventory, promosi, omnichannel, dan dashboard. Saya membangun integrasi RESTful API dengan Dio dan interceptor kustom, pesan real-time dengan Socket.io, serta layanan Firebase untuk cloud messaging dan pelaporan crash."
+      },
+      "role": "Frontend Developer Staff (Mobile)",
+      "techStack": [
+        "Flutter",
+        "Dart",
+        "Clean Architecture",
+        "GetX",
+        "Dio",
+        "Socket.io",
+        "Firebase",
+        "Google Maps",
+        "Freezed"
+      ],
+      "highlights": {
+        "en": [
+          "Built multi-module architecture with inventory, promotion, omnichannel, and dashboard",
+          "Integrated RESTful API with Dio and custom interceptors",
+          "Implemented real-time messaging with Socket.io client",
+          "Used GetX state management with an event bus pattern",
+          "Added barcode scanning, QR code generation, and Google Maps integration",
+          "Offline support with a local database (Sembast) and immutable models with Freezed"
+        ],
+        "id": [
+          "Membangun arsitektur multi-module dengan inventory, promosi, omnichannel, dan dashboard",
+          "Mengintegrasikan RESTful API dengan Dio dan interceptor kustom",
+          "Menerapkan pesan real-time dengan Socket.io client",
+          "Menggunakan GetX state management dengan pola event bus",
+          "Menambahkan scan barcode, pembuatan QR code, dan integrasi Google Maps",
+          "Dukungan offline dengan database lokal (Sembast) dan model immutable dengan Freezed"
+        ]
+      },
+      "featured": true,
+      "updatedAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "id": "mosq",
+      "title": {
+        "en": "MOSQ — Mosque Management App",
+        "id": "MOSQ — Aplikasi Manajemen Masjid"
+      },
+      "description": {
+        "en": "MOSQ is a mosque management mobile application built with Flutter that helps mosque administrators manage operations and finances digitally. I integrated Firebase backend services for authentication and database management, implemented GetX state management, and published the app to the Google Play Store.",
+        "id": "MOSQ adalah aplikasi mobile manajemen masjid yang dibangun dengan Flutter untuk membantu pengurus masjid mengelola operasional dan keuangan secara digital. Saya mengintegrasikan layanan backend Firebase untuk autentikasi dan manajemen database, menerapkan state management GetX, dan memublikasikan aplikasi ke Google Play Store."
+      },
+      "role": "Fullstack Mobile Developer",
+      "techStack": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "GetX",
+        "Google Play Store",
+        "REST API"
+      ],
+      "highlights": {
+        "en": [
+          "Integrated Firebase Authentication and Database management",
+          "Implemented GetX state management for efficient app state handling",
+          "Published the app to the Google Play Store",
+          "Incorporated Android resources and third-party library integration"
+        ],
+        "id": [
+          "Mengintegrasikan Firebase Authentication dan manajemen Database",
+          "Menerapkan state management GetX untuk penanganan state aplikasi yang efisien",
+          "Memublikasikan aplikasi ke Google Play Store",
+          "Mengintegrasikan sumber daya Android dan library pihak ketiga"
+        ]
+      },
+      "featured": true,
+      "updatedAt": "2022-09-30T00:00:00.000Z"
+    },
+    {
+      "id": "sayurdaily",
+      "title": {
+        "en": "Sayurdaily — Grocery E-commerce App",
+        "id": "Sayurdaily — Aplikasi E-commerce Sembako"
+      },
+      "description": {
+        "en": "Sayurdaily is an online marketplace for fresh vegetables and food from local traditional markets. Built as part of my work at PT IMPERINDO, I contributed to the Flutter application supporting the local grocery shopping experience.",
+        "id": "Sayurdaily adalah marketplace online untuk sayuran segar dan makanan dari pasar tradisional lokal. Dibangun sebagai bagian dari pekerjaan saya di PT IMPERINDO, saya berkontribusi pada aplikasi Flutter yang mendukung pengalaman belanja kebutuhan harian."
+      },
+      "role": "Fullstack Mobile Developer",
+      "techStack": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "REST API"
+      ],
+      "highlights": {
+        "en": [
+          "Contributed to a Flutter-based online marketplace for local fresh food",
+          "Supported the local traditional market shopping experience",
+          "Built within a production mobile development team"
+        ],
+        "id": [
+          "Berkontribusi pada marketplace online berbasis Flutter untuk makanan segar lokal",
+          "Mendukung pengalaman belanja pasar tradisional lokal",
+          "Dibangun dalam tim pengembangan mobile produksi"
+        ]
+      },
+      "featured": false,
+      "updatedAt": "2022-09-30T00:00:00.000Z"
+    },
+    {
+      "id": "empower-hr",
+      "title": {
+        "en": "Empower HR — HRIS / Employee Management",
+        "id": "Empower HR — HRIS / Manajemen Karyawan"
+      },
+      "description": {
+        "en": "Empower HR is an internal human resources application featuring attendance tracking, leave management, payroll, and employee data. I contributed to the HRIS app built with React Native and deployed the application to the Apple App Store.",
+        "id": "Empower HR adalah aplikasi internal human resources dengan fitur pencatatan kehadiran, manajemen cuti, payroll, dan data karyawan. Saya berkontribusi pada aplikasi HRIS yang dibangun dengan React Native dan men-deploy aplikasi ke Apple App Store."
+      },
+      "role": "Frontend Developer Staff (Mobile & Web)",
+      "techStack": [
+        "React Native",
+        "HRIS",
+        "Apple App Store",
+        "Mobile"
+      ],
+      "highlights": {
+        "en": [
+          "Implemented attendance tracking, leave management, payroll, and employee data features",
+          "Deployed the internal HR application to the Apple App Store",
+          "Developed within a cross-functional product team"
+        ],
+        "id": [
+          "Mengimplementasikan fitur pencatatan kehadiran, manajemen cuti, payroll, dan data karyawan",
+          "Men-deploy aplikasi HR internal ke Apple App Store",
+          "Dikembangkan dalam tim produk lintas fungsi"
+        ]
+      },
+      "featured": false,
+      "updatedAt": "2026-07-22T00:00:00.000Z"
+    }
+  ]
+}
