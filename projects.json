@@ -1,0 +1,136 @@
+{
+  "projects": [
+    {
+      "id": "mosq",
+      "title": {
+        "en": "MosQ — Mosque Management App",
+        "id": "MosQ — Aplikasi Manajemen Masjid"
+      },
+      "description": {
+        "en": "MosQ is a mosque management mobile application that helps mosque administrators manage operational and financial data digitally and transparently. I contributed to building the Flutter + Firebase app with a focus on scalable architecture, reliable data synchronization, and user-friendly UX for non-technical users.",
+        "id": "MosQ adalah aplikasi mobile manajemen masjid yang memudahkan pengurus masjid mengelola data operasional dan keuangan secara digital dan transparan. Saya berkontribusi mengembangkan aplikasi dengan Flutter dan Firebase, dengan fokus arsitektur yang skalabel, sinkronisasi data yang andal, dan UX yang mudah digunakan oleh pengguna non-teknis."
+      },
+      "role": "Mobile Frontend Developer",
+      "techStack": [
+        "Flutter",
+        "Firebase",
+        "REST API",
+        "State Management",
+        "Authentication",
+        "Cloud Functions"
+      ],
+      "highlights": {
+        "en": [
+          "Built cash/financial management, inventory tracking, and zakat/donation recording",
+          "Implemented attendance monitoring and a community-facing transparency dashboard",
+          "Collaborated with product and backend teams to translate requirements into reliable features"
+        ],
+        "id": [
+          "Mengembangkan fitur pengelolaan kas/keuangan, pelacakan inventaris, dan pencatatan zakat/donasi",
+          "Menerapkan monitoring kehadiran imam/petugas serta dashboard transparansi untuk komunitas",
+          "Kolaborasi dengan tim produk dan backend untuk menerjemahkan kebutuhan menjadi fitur yang andal"
+        ]
+      },
+      "featured": true,
+      "updatedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "id": "sayurdaily",
+      "title": {
+        "en": "Sayurdaily — Grocery E-commerce App",
+        "id": "Sayurdaily — Aplikasi E-commerce Sembako"
+      },
+      "description": {
+        "en": "Sayurdaily is a mobile e-commerce application for users in Malang City and surrounding areas to shop for daily groceries (vegetables, fruits, meat, fish). I worked on the Flutter app focusing on performance optimization, WooCommerce API integration, and a smooth checkout/order tracking experience aligned with real-world operations.",
+        "id": "Sayurdaily adalah aplikasi e-commerce mobile untuk pengguna di Kota Malang dan sekitarnya membeli kebutuhan harian (sayur, buah, daging, ikan). Saya mengembangkan aplikasi Flutter dengan fokus optimisasi performa, integrasi WooCommerce API, serta pengalaman checkout dan tracking pesanan yang selaras dengan proses operasional."
+      },
+      "role": "Mobile Frontend Developer",
+      "techStack": [
+        "Flutter",
+        "WooCommerce API",
+        "REST API",
+        "Payment Integration",
+        "Performance Tuning"
+      ],
+      "highlights": {
+        "en": [
+          "Integrated WooCommerce backend for product browsing, cart, checkout, and order tracking",
+          "Optimized mobile performance to support quick local shopping flows",
+          "Coordinated with backend and operations teams to match real-world order processing"
+        ],
+        "id": [
+          "Integrasi backend WooCommerce untuk browse produk, keranjang, checkout, dan tracking pesanan",
+          "Optimisasi performa untuk mendukung alur belanja lokal yang cepat",
+          "Koordinasi dengan tim backend dan operasional agar aplikasi sesuai proses pemesanan di lapangan"
+        ]
+      },
+      "featured": false,
+      "updatedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "id": "kasirmudah",
+      "title": {
+        "en": "Kasirmudah — POS / Cashier App",
+        "id": "Kasirmudah — Aplikasi POS / Kasir"
+      },
+      "description": {
+        "en": "Kasirmudah is a cashier (POS) application used by businesses across Indonesia. I lead the Android team to deliver features that support day-to-day operations, with a focus on reliability, maintainable architecture, and a smooth end-user experience.",
+        "id": "Kasirmudah adalah aplikasi kasir (POS) yang digunakan oleh bisnis di Indonesia. Saya memimpin tim Android untuk mengembangkan fitur operasional harian dengan fokus pada reliabilitas, arsitektur yang mudah dirawat, dan pengalaman pengguna yang mulus."
+      },
+      "role": "Mobile Developer Staff",
+      "techStack": [
+        "Flutter",
+        "Android",
+        "POS Systems",
+        "Play Store",
+        "App Store"
+      ],
+      "highlights": {
+        "en": [
+          "Led Android delivery across multiple feature areas and releases",
+          "Shipped features supporting laundry/business workflows in the POS ecosystem",
+          "Focused on quality, operational readiness, and scalable implementation"
+        ],
+        "id": [
+          "Memimpin delivery Android untuk berbagai area fitur dan rilis",
+          "Mengembangkan fitur yang mendukung alur kerja bisnis (termasuk laundry) dalam ekosistem POS",
+          "Fokus pada kualitas, kesiapan operasional, dan implementasi yang skalabel"
+        ]
+      },
+      "featured": true,
+      "updatedAt": "2026-01-13T00:00:00.000Z"
+    },
+    {
+      "id": "smartlink",
+      "title": {
+        "en": "Smartlink — Laundry Cashier / POS App",
+        "id": "Smartlink — Aplikasi Kasir / POS Laundry"
+      },
+      "description": {
+        "en": "Smartlink is a laundry cashier (POS) application. I lead the Android team to build and maintain core POS capabilities, ensuring performance, stability, and predictable behavior in real-world store operations.",
+        "id": "Smartlink adalah aplikasi kasir (POS) untuk laundry. Saya memimpin tim Android untuk membangun dan memelihara kapabilitas inti POS, dengan fokus pada performa, stabilitas, dan perilaku aplikasi yang konsisten di operasional toko."
+      },
+      "role": "Mobile Developer Staff",
+      "techStack": [
+        "Flutter",
+        "Android",
+        "POS Systems",
+        "Play Store"
+      ],
+      "highlights": {
+        "en": [
+          "Led Android team execution for a POS product used in laundry operations",
+          "Delivered iterative improvements across core POS workflows",
+          "Prioritized stability and maintainability across ongoing development"
+        ],
+        "id": [
+          "Memimpin eksekusi tim Android untuk produk POS yang digunakan di operasional laundry",
+          "Mengirimkan peningkatan iteratif pada alur kerja inti POS",
+          "Memprioritaskan stabilitas dan kemudahan maintenance dalam pengembangan berkelanjutan"
+        ]
+      },
+      "featured": false,
+      "updatedAt": "2026-01-13T00:00:00.000Z"
+    }
+  ]
+}
