@@ -1,0 +1,147 @@
+@import "tailwindcss";
+
+/* ============================================================
+   Design tokens — editorial portfolio for a mobile engineer.
+   Dark (ink) first, warm cream paper in light mode.
+   ============================================================ */
+
+:root {
+  /* Ink / dark canvas */
+  --background: #0c1220;
+  --foreground: #e9e5da;
+  --muted: #a9b2c3;
+  --panel: #121a2c;
+  --panel-2: #0f1626;
+  --border: rgba(178, 186, 202, 0.18);
+  --accent: #d8e260; /* lime-chartreuse signal */
+  --accent-ink: #10181a;
+  --accent-2: #8fd8a6;
+  --ring: rgba(216, 226, 96, 0.45);
+  --selection: rgba(216, 226, 96, 0.22);
+  --grid-line: rgba(178, 186, 202, 0.07);
+  --shadow: 0 20px 50px -24px rgba(0, 0, 0, 0.65);
+  --radius: 14px;
+  --measure: 66ch;
+  --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia,
+    "Times New Roman", serif;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #f6f3ec;
+    --foreground: #161b27;
+    --muted: #5b6575;
+    --panel: #ffffff;
+    --panel-2: #efece3;
+    --border: rgba(22, 27, 39, 0.14);
+    --accent: #3f6212; /* deep olive-lime */
+    --accent-ink: #f6f3ec;
+    --accent-2: #0f766e;
+    --ring: rgba(63, 98, 18, 0.4);
+    --selection: rgba(63, 98, 18, 0.16);
+    --grid-line: rgba(22, 27, 39, 0.06);
+    --shadow: 0 20px 50px -30px rgba(22, 27, 39, 0.28);
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-panel: var(--panel);
+  --color-accent: var(--accent);
+  --color-border: var(--border);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 1.5rem;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  text-rendering: optimizeLegibility;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Subtle paper/grid texture on the canvas */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent 80%);
+}
+
+::selection {
+  background: var(--selection);
+}
+
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+summary {
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Editorial display type for headlines */
+.font-display {
+  font-family: var(--font-serif);
+  letter-spacing: -0.015em;
+  font-weight: 600;
+  line-height: 1.08;
+}
+
+/* Kicker / micro labels */
+.kicker {
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* Link underline treatment */
+.link-editorial {
+  color: var(--foreground);
+  text-decoration: underline;
+  text-decoration-color: var(--border);
+  text-underline-offset: 4px;
+  transition: color 160ms ease, text-decoration-color 160ms ease;
+}
+
+.link-editorial:hover {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
